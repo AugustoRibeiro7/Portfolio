@@ -1,0 +1,95 @@
+/* =========================GERAL========================================= */
+*{
+}
+
+body{
+    width: 100%;
+    line-height: 1;
+    min-height: 100vh;
+    box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ========================CABEÇALHO======================================  */
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    padding: 1%;
+}
+
+#caixa-guias{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.guias{
+    color: white;
+}
+
+.guias:hover,
+.guias:focus{
+    text-decoration: underline;
+}
+
+.guias:active{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ====================CONTEÚDO PRINCIPAL================================= */
+#tit_col{
+    color: white;
+    margin-left: 2%;
+}
+
+#coluna{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(167, 21, 21);
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.882), rgb(0, 0, 0));
+}
+
+h1{
+    color: white;
+}
+
+#principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.capa{
+    width: 100%;
+    height: 48vh;
+    margin-bottom: 20%;
+    border-radius: 10px;
+}
+
+#cefet{
+    width: 60%;
+}
+
+#cultura{
+    width: 85%;
+    text-align: center;
+}
+
+h3{
+    color: rgb(198, 198, 198);
+}
